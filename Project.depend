@@ -1,0 +1,209 @@
+# depslib dependency file v1.0
+1526746299 source:c:\users\looi\desktop\programming\project\main.cpp
+	<iostream>
+	<graphics.h>
+	<string>
+	<cstdlib>
+	<windows.h>
+	"Game.h"
+
+1526780583 c:\users\looi\desktop\programming\project\game.h
+	"Order.h"
+	"Kitchen.h"
+
+1526100637 c:\users\looi\desktop\programming\project\order.h
+	<graphics.h>
+	<cstdlib>
+	<ctime>
+	<string>
+
+1524027091 c:\users\looi\desktop\programming\project\order.cpp
+	<iostream>
+	"Order.h"
+
+1524027127 c:\users\looi\desktop\programming\project\game.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<graphics.h>
+	<cstdlib>
+	<ctime>
+	"Game.h"
+	"Kitchen.h"
+	<iomanip>
+
+1526270127 c:\users\looi\desktop\programming\project\kitchen.h
+	<string>
+	"Ingredient.h"
+	"Rendang.h"
+	"Egg.h"
+	"Cucumber.h"
+	"Sambal.h"
+	"Rice.h"
+
+1523688601 c:\users\looi\desktop\programming\project\kitchen.cpp
+	<iostream>
+	<graphics.h>
+	<string>
+	"Game.h"
+	"Kitchen.h"
+
+1526781254 source:c:\users\looi\desktop\programming\project\game.cpp
+	<iostream>
+	<stdio.h>
+	<graphics.h>
+	<cstdlib>
+	<ctime>
+	"Game.h"
+	"Kitchen.h"
+	<iomanip>
+	<future>
+	<chrono>
+	<numeric>
+
+1526100646 source:c:\users\looi\desktop\programming\project\order.cpp
+	<iostream>
+	"Order.h"
+
+1526733987 source:c:\users\looi\desktop\programming\project\kitchen.cpp
+	<iostream>
+	<graphics.h>
+	<string>
+	"Kitchen.h"
+
+1526101837 source:c:\users\looi\desktop\programming\project\display.cpp
+	"Display.h"
+
+1526102256 c:\users\looi\desktop\programming\project\display.h
+	<string>
+
+1526273264 source:c:\users\looi\desktop\programming\project\ingredient.cpp
+	"Ingredient.h"
+
+1526273566 c:\users\looi\desktop\programming\project\ingredient.h
+
+1526269326 c:\users\looi\desktop\programming\project\rendang.h
+	<graphics.h>
+	"Ingredient.h"
+
+1526269527 c:\users\looi\desktop\programming\project\egg.h
+	<graphics.h>
+	"Ingredient.h"
+
+1526270476 c:\users\looi\desktop\programming\project\cucumber.h
+	<graphics.h>
+	"Ingredient.h"
+
+1526270481 c:\users\looi\desktop\programming\project\sambal.h
+	<graphics.h>
+	"Ingredient.h"
+
+1526270496 c:\users\looi\desktop\programming\project\rice.h
+	<graphics.h>
+	"Ingredient.h"
+
+1526272750 source:c:\users\looi\desktop\programming\project\cucumber.cpp
+	"Cucumber.h"
+
+1526272750 source:c:\users\looi\desktop\programming\project\egg.cpp
+	"Egg.h"
+
+1526272707 source:c:\users\looi\desktop\programming\project\rendang.cpp
+	"Rendang.h"
+
+1526272991 source:c:\users\looi\desktop\programming\project\rice.cpp
+	"Rice.h"
+
+1526272750 source:c:\users\looi\desktop\programming\project\sambal.cpp
+	"Sambal.h"
+
+1526272750 source:c:\users\looi\desktop\programming\group project\project\cucumber.cpp
+	"Cucumber.h"
+
+1526270476 c:\users\looi\desktop\programming\group project\project\cucumber.h
+	<graphics.h>
+	"Ingredient.h"
+
+1526273566 c:\users\looi\desktop\programming\group project\project\ingredient.h
+
+1526272750 source:c:\users\looi\desktop\programming\group project\project\egg.cpp
+	"Egg.h"
+
+1526269527 c:\users\looi\desktop\programming\group project\project\egg.h
+	<graphics.h>
+	"Ingredient.h"
+
+1526781254 source:c:\users\looi\desktop\programming\group project\project\game.cpp
+	<iostream>
+	<stdio.h>
+	<graphics.h>
+	<cstdlib>
+	<ctime>
+	"Game.h"
+	"Kitchen.h"
+	<iomanip>
+	<future>
+	<chrono>
+	<numeric>
+
+1526800379 c:\users\looi\desktop\programming\group project\project\game.h
+	"Order.h"
+	"Kitchen.h"
+
+1526100637 c:\users\looi\desktop\programming\group project\project\order.h
+	<graphics.h>
+	<cstdlib>
+	<ctime>
+	<string>
+
+1526270127 c:\users\looi\desktop\programming\group project\project\kitchen.h
+	<string>
+	"Ingredient.h"
+	"Rendang.h"
+	"Egg.h"
+	"Cucumber.h"
+	"Sambal.h"
+	"Rice.h"
+
+1526269326 c:\users\looi\desktop\programming\group project\project\rendang.h
+	<graphics.h>
+	"Ingredient.h"
+
+1526270481 c:\users\looi\desktop\programming\group project\project\sambal.h
+	<graphics.h>
+	"Ingredient.h"
+
+1526270496 c:\users\looi\desktop\programming\group project\project\rice.h
+	<graphics.h>
+	"Ingredient.h"
+
+1526273264 source:c:\users\looi\desktop\programming\group project\project\ingredient.cpp
+	"Ingredient.h"
+
+1526733987 source:c:\users\looi\desktop\programming\group project\project\kitchen.cpp
+	<iostream>
+	<graphics.h>
+	<string>
+	"Kitchen.h"
+
+1526746299 source:c:\users\looi\desktop\programming\group project\project\main.cpp
+	<iostream>
+	<graphics.h>
+	<string>
+	<cstdlib>
+	<windows.h>
+	"Game.h"
+
+1526100646 source:c:\users\looi\desktop\programming\group project\project\order.cpp
+	<iostream>
+	"Order.h"
+
+1526272707 source:c:\users\looi\desktop\programming\group project\project\rendang.cpp
+	"Rendang.h"
+
+1526272991 source:c:\users\looi\desktop\programming\group project\project\rice.cpp
+	"Rice.h"
+
+1526272750 source:c:\users\looi\desktop\programming\group project\project\sambal.cpp
+	"Sambal.h"
+

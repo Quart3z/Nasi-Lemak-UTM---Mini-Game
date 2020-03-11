@@ -1,0 +1,27 @@
+#include <iostream>
+#include <graphics.h>
+#include "Game.h"
+
+
+// The shit happens here
+Game::Game(int _width, int _height){
+
+    width = _width;
+    height = _height;
+
+    readimagefile("stall.jpg", 0, 0, _width, _height);
+
+}
+
+// Check if exit button is pressed
+bool Game::exit(){
+
+    getmouseclick(WM_LBUTTONDOWN, mx, my);
+
+    if ((mx > 1042) && (mx < 1062) && (my > 10) && (my < 30)){
+
+        return true;
+
+    }
+
+}

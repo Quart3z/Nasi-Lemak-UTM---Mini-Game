@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="libwinmm" />
+		</Linker>
+		<Unit filename="Cucumber.cpp" />
+		<Unit filename="Cucumber.h" />
+		<Unit filename="Egg.cpp" />
+		<Unit filename="Egg.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="Ingredient.cpp" />
+		<Unit filename="Ingredient.h" />
+		<Unit filename="Kitchen.cpp" />
+		<Unit filename="Kitchen.h" />
+		<Unit filename="Order.cpp" />
+		<Unit filename="Order.h" />
+		<Unit filename="Rendang.cpp" />
+		<Unit filename="Rendang.h" />
+		<Unit filename="Rice.cpp" />
+		<Unit filename="Rice.h" />
+		<Unit filename="Sambal.cpp" />
+		<Unit filename="Sambal.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
